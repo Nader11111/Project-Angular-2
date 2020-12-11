@@ -1,4 +1,7 @@
-<h2>Products </h2>
+
+<img class="img-fluid" src="../../assets/img/image.jpg">
+<div class="text-center d-flex flex-column align-items-center caption">
+<h2>Web development courses </h2>
 <div *ngFor="let product of products; index as productId">
 	<h3>
 		<a [title]="product.name + ' details' "[routerLink]="['/products', productId] ">
@@ -11,6 +14,7 @@
 
 		Description:{{product.description}}
 		<p>
+
 			<button (click)="share()">
     Share
   </button>
@@ -23,6 +27,7 @@
 
 </div>
 
+</div>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.

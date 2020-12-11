@@ -1,0 +1,6 @@
+<h3>Reduction </h3>
+
+<div class="reduction-item" *ngFor="let reduction of reductionCosts | async">
+  <span>{{ reduction.BundlesPurchased  }}</span>
+  <span>{{ reduction.Reduction   }}</span>
+</div>

@@ -18,8 +18,8 @@ addToCart(product) {
     this.items = [];
     return this.items;
   }
-  getShippingPrices() {
-    return this.http.get('/assets/shipping.json');
+  getReductionPrices() {
+    return this.http.get('/assets/reduction.json');
   }
   constructor(
         private http: HttpClient

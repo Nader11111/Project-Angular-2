@@ -1,0 +1,14 @@
+[
+  {
+    "BundlesPurchased": "One bundle purchased",
+    "Reduction": "30% OFF"
+  },
+  {
+    "BundlesPurchased": "Two bundle purchased",
+    "Reduction": "The third is 60% OFF"
+  },
+  {
+    "BundlesPurchased": "Three bundle purchased",
+    "Reduction": "The fourth is for free"
+  }
+]

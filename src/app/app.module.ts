@@ -11,7 +11,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartService } from './cart.service';
 import { PanierComponent } from './panier/panier.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ShippingComponent } from './shipping/shipping.component';
+import { ReductionComponent } from './reduction/reduction.component';
 
 @NgModule({
   imports: [
@@ -24,7 +24,7 @@ import { ShippingComponent } from './shipping/shipping.component';
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'panier', component: PanierComponent },
-      { path: 'shipping', component: ShippingComponent },
+      { path: 'reduction', component: ReductionComponent },
 
     ])
   ],
@@ -35,7 +35,7 @@ import { ShippingComponent } from './shipping/shipping.component';
     ProductAlertsComponent,
     ProductDetailsComponent,
     PanierComponent,
-    ShippingComponent
+    ReductionComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]

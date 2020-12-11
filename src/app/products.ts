@@ -1,19 +1,31 @@
 export const products = [
   {
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
-  },
-  {
-    name: 'Phone Mini',
+    name: 'Angular Bundle',
     price: 699,
-    description: 'A great phone with one of the best cameras'
+    description: 'Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps'
   },
   {
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
+    name: 'React Bundle',
+    price: 699,
+    description: 'React is an open-source, front end, JavaScript library for building user interfaces or UI components'
+  },
+  {
+    name: 'Html Bundle',
+    price: 499,
+    description: 'HTML is a computer language devised to allow website creation. These websites can then be viewed by anyone else connected to the Internet'
+  },
+  {
+    name: 'Laravel Bundle',
+    price: 499,
+    description: 'Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling'
+  },
+  {
+    name: 'React Native Bundle',
+    price: 599,
+    description: 'React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android. It’s based on React'
   }
+
+  
 ];
 
 
