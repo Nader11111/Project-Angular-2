@@ -1,8 +1,8 @@
 /* Global Styles */
 
-* {
+ {
     font-family: "Roboto", Arial, sans-serif;
-    color: #163553;   
+    color: #ffffff;   
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -51,8 +51,10 @@
   
   a {
     cursor: pointer;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
+    box-sizing: border-box;
+
   }
   
   a:hover {
@@ -86,7 +88,7 @@
     border-radius: 2px;
     font-size: 14px;
     cursor: pointer;
-    background-color: #04174de7;
+    background-color: #808080;
     color: rgb(255, 255, 255);
     border: none;
   }

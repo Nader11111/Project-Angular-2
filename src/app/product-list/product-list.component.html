@@ -1,5 +1,9 @@
 
-<img class="img-fluid" src="../../assets/img/image.jpg">
+<img class="img-fluid" src="../../assets/img/image1.jpg">
+
+
+
+
 <div class="text-center d-flex flex-column align-items-center caption">
 <h2>Web development courses </h2>
 <div *ngFor="let product of products; index as productId">
@@ -10,14 +14,14 @@
 		</a>
 
 	</h3>
-	<p *ngIf="product.description">
+	<!-- <p *ngIf="product.description">
 
 		Description:{{product.description}}
-		<p>
-
-			<button (click)="share()">
+		<p> -->
+			<button (click)="share()"  class="btn btn-outline-secondary">Share</button>
+			<!-- <button (click)="share()">
     Share
-  </button>
+  </button> -->
   <app-product-alerts
   [product]="product"
     (notify)="onNotify()">

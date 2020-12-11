@@ -10,20 +10,20 @@ export const products = [
     description: 'React is an open-source, front end, JavaScript library for building user interfaces or UI components'
   },
   {
-    name: 'Html Bundle',
+    name: 'Spring Bundle',
     price: 499,
     description: 'HTML is a computer language devised to allow website creation. These websites can then be viewed by anyone else connected to the Internet'
   },
-  {
-    name: 'Laravel Bundle',
-    price: 499,
-    description: 'Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling'
-  },
-  {
-    name: 'React Native Bundle',
-    price: 599,
-    description: 'React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android. It’s based on React'
-  }
+  // {
+  //   name: 'Laravel Bundle',
+  //   price: 499,
+  //   description: 'Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling'
+  // },
+  // {
+  //   name: 'React Native Bundle',
+  //   price: 599,
+  //   description: 'React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android. It’s based on React'
+  // }
 
   
 ];
