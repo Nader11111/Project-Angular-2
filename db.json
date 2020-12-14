@@ -18,25 +18,25 @@
   },
   "product": [
     {
-      "id": 1,
+      "id": 5,
       "name": "Angular Bundle",
       "price": 699,
       "description": "Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps",
-      "quantite": 2
+      "quantite": 5
     },
     {
-      "id": 2,
+      "id": 4,
       "name": "React Bundle",
       "price": 699,
       "description": "React is an open-source, front end, JavaScript library for building user interfaces or UI components",
-      "quantite": 5
+      "quantite": 1
     },
     {
       "id": 3,
       "name": "Spring Bundle",
       "price": 499,
       "description": "HTML is a computer language devised to allow website creation. These websites can then be viewed by anyone else connected to the Internet",
-      "quantite": 1
+      "quantite": 2
     }
   ]
 }

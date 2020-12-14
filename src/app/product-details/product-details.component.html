@@ -3,13 +3,14 @@
 
 <h2>Product Details</h2>
 
-<div   [ngStyle]="{'color': product.quantite===1 ? 'red':'black'}"
->
+<div *ngIf="product">
 
-   <td>{{product.name}}</td>
-  <td>{{product.price}}</td>
-  <td>{{product.description}}</td>
-  <button [disabled]="product.quantite===0" (click)="addToCart()">Buy</button> 
+  <h3> {{product.name}}  </h3>
+  <h4> {{product.price | currency}} </h4>
+  <p>  {{product.description}}  </p>
+  <p>  Still remains:{{product.quantite}}  </p>
+
+  <button [ngStyle]="{'color': product.quantite===1 ? 'red':'black'}" [disabled]="product.quantite===0" (click)="addToCart()">Buy</button> 
   
 
 

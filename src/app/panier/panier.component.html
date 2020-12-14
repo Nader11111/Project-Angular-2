@@ -8,6 +8,7 @@
   <span>{{ item.name }}</span>
   <span>{{ item.price | currency }}</span>
   <button class="button"(click)="Delete(i)" type="submit">Delete</button>
+
 </div>
 <form [formGroup]="checkoutForm"(ngSubmit)="onSubmit(checkoutForm.value)">
 <div>
@@ -22,8 +23,12 @@
       Address
     </label>
     <input id="address" type="text" formControlName="address">
-  </div>
-  <button class="button" type="submit">Purchase</button>
+    <button (click)="Purchase()"  class="btn btn-outline-secondary">Purchase</button>
 
+  </div>
+
+
+  
 </form>
+
 <div>

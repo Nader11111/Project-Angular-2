@@ -22,6 +22,7 @@ product: products;
     private productService: ProductService,
     private activatedRoute : ActivatedRoute 
   ) {}
+  
 
 
   addToCart() {
@@ -31,20 +32,7 @@ product: products;
     window.alert("Your product has been added to the cart!");
   }
 
-  // addToCart(product) {
-  //   this.cartService.addToCart(product).subscribe();
-  //   window.alert("Your product has been added to the cart!");
-  // }
-  // ngOnInit() {
-  //   this.route.paramMap.subscribe(params => {
-  //     this.products = products[+params.get("productId")];
-  //   });
-  // }
-
-  // ngOnInit(): void {
-  //   this.route.paramMap.subscribe(res=>this.valId=res.get('id'), erreur=>console.log("erreur"), ()=>console.log("finish"));
-  //   ;
-  // }
+  
  
   ngOnInit(): void {
     this.activatedRoute.paramMap.subscribe(res=> this.valId=res.get('id')),error=>console.log("error"),()=>console.log('finish');
@@ -58,16 +46,6 @@ product: products;
 
 
 
-//  ngOnInit() {
-//   this.activatedRoute.params.subscribe(
-//     (params) => {
-//       this.ProductService.getProductById(params.id).subscribe(
-//         (products) => {
-//           this.products = products;
-//         }
-//       );
-//     }
-//   );
-// }
+
 
 }

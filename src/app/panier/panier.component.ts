@@ -21,6 +21,11 @@ export class PanierComponent implements OnInit {
       name: '',
       address: ''
     });
+    
+}
+Purchase() {
+  
+  window.alert("Your product has been purchased!");
 }
   ngOnInit() {
         this.items = this.cartService.getAllproducts();
@@ -32,4 +37,10 @@ export class PanierComponent implements OnInit {
       this.items.splice(i,1);
     
   }
+
+
+ 
+
+
+
 }
