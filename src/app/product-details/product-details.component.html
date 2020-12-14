@@ -3,14 +3,19 @@
 
 <h2>Product Details</h2>
 
-<div *ngIf="product">
-  <h3>{{ product.name }}</h3>
-  <h4>{{ product.price | currency }}</h4>
-  <p>{{ product.description  }}</p>
-  <button (click)="addToCart(product)">Buy</button>
+<div   [ngStyle]="{'color': product.quantite===1 ? 'red':'black'}"
+>
+
+   <td>{{product.name}}</td>
+  <td>{{product.price}}</td>
+  <td>{{product.description}}</td>
+  <button [disabled]="product.quantite===0" (click)="addToCart()">Buy</button> 
+  
 
 
 
 </div>
 </div>
+{{valId}} 
+
 

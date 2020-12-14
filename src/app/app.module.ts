@@ -16,13 +16,12 @@ import { ReductionComponent } from './reduction/reduction.component';
 @NgModule({
   imports: [
     BrowserModule,
-        HttpClientModule,
-
+    HttpClientModule,
     ReactiveFormsModule,
     
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
-      { path: 'products/:productId', component: ProductDetailsComponent },
+      { path: 'products/:id', component: ProductDetailsComponent },
       { path: 'panier', component: PanierComponent },
       { path: 'reduction', component: ReductionComponent },
 

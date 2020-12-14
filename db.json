@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "product": [
+    {
+      "id": 1,
+      "name": "Angular Bundle",
+      "price": 699,
+      "description": "Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps",
+      "quantite": 2
+    },
+    {
+      "id": 2,
+      "name": "React Bundle",
+      "price": 699,
+      "description": "React is an open-source, front end, JavaScript library for building user interfaces or UI components",
+      "quantite": 5
+    },
+    {
+      "id": 3,
+      "name": "Spring Bundle",
+      "price": 499,
+      "description": "HTML is a computer language devised to allow website creation. These websites can then be viewed by anyone else connected to the Internet",
+      "quantite": 1
+    }
+  ]
+}

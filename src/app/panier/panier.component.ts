@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from '../cart.service';
 import { FormBuilder } from '@angular/forms';
+import { products } from '../products';
 
 @Component({
   selector: 'app-panier',
@@ -8,7 +9,7 @@ import { FormBuilder } from '@angular/forms';
   styleUrls: ['./panier.component.css']
 })
 export class PanierComponent implements OnInit {
-  items;
+  items : products[];
   checkoutForm;
   constructor(
     private cartService: CartService,
@@ -22,8 +23,13 @@ export class PanierComponent implements OnInit {
     });
 }
   ngOnInit() {
-        this.items = this.cartService.getItems();
+        this.items = this.cartService.getAllproducts();
+        
 
   }
-
+    Delete(i:number ){
+     
+      this.items.splice(i,1);
+    
+  }
 }
