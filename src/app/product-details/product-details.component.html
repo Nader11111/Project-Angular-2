@@ -10,7 +10,7 @@
   <p>  {{product.description}}  </p>
   <p>  Still remains:{{product.quantite}}  </p>
 
-  <button [ngStyle]="{'color': product.quantite===1 ? 'red':'black'}" [disabled]="product.quantite===0" (click)="addToCart()">Buy</button> 
+  <button [ngStyle]="{'color': product.quantite===1 ? 'red':'black'}" [disabled]="product.quantite===0" (click)="addToCart()">Add to cart</button> 
   
 
 
